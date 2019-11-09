@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: #3c3c3c;
+}
+.container {
+    max-width: 903px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.ba-header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    min-height: 1071px;
+}
+.ba-header-wrapper {
+    text-align: center;
+}
+.ba-header-info-block {
+    color: #fff;
+}
+.ba-header-info-block__title {
+    font-size: 3.375rem;
+    font-weight: bold;
+    letter-spacing: 0.54rem;
+    margin: 80px 0 50px 0;
+}
+.ba-info-block__text {
+    font-size: 0.9375rem;
+    line-height: 1.8125rem;
+    letter-spacing: 0.05625rem;
+    text-transform: uppercase;
+    margin: 0 0 240px 0;
+}
+.ba-header__scroll {
+    width: 23px;
+    height: 37px;
+    background-image: url(../img/scroll.png);
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.ba-section-about {
+    display: flex;
+    align-items: center;
+    min-height: 632px;
+}
+.ba-legend {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    text-align: center;
+    border-right: 2px solid #3c3c3c;
+    border-left: 2px solid #3c3c3c;
+    border-bottom: 2px solid #3c3c3c;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 73px 0 28px 0;
+}
+.ba-legend__title {
+    font-size: 2.125rem;
+    font-weight: bold;
+    letter-spacing: 0.34rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: -0.85rem;
+    margin: 0;
+}
+.ba-legend::before, .ba-legend::after {
+    content: "";
+    display: block;
+    width: 26.578%;
+    border-top: 2px solid #3c3c3c;
+    position: absolute;
+    top: 0;
+}
+.ba-legend--white {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.ba-legend--white::before, .ba-legend--white::after {
+    border-top: 2px solid #fff;
+}
+.ba-legend::before {
+    left: 0;
+}
+.ba-legend::after {
+    right: 0;
+}
+.ba-legend__text {
+    max-width: 555px;
+}
+.ba-legend__text p {
+    margin: 0;
+} 
+.ba-legend__short-text {
+    max-width: 450px;
+    margin: 30px auto 0 auto;
+}
+.ba-section-services {
+    display: flex;
+    align-items: center;
+    min-height: 487px;
+    color: #fff;
+    background-image: url(../img/services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ba-section-types-of-services {
+    display: flex;
+    align-items: center;
+    min-height: 1415px;
+}
+.ba-legend__title--left {
+    left: 50%;
+    transform: translate(-50%);
+}
+.ba-legend__subtitle {
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin: 35px 0;
+}
+.ba-legend--padding_more {
+    padding: 118px 0 83px 0;
+}
+.ba-legend-wrapper:nth-child(-n+2) {
+    margin-bottom: 103px;
+}
+.ba-legend__smaller-text {
+    font-size: 0.875rem;
+    line-height: 1.618rem;
+}
+.ba-section-contacts {
+    padding-top: 138px;
+}
+.ba-legend__btn {
+    height: 58px;
+    width: 395px;
+    font-size: 1rem;
+    letter-spacing: 0.16rem;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background-color: #3c3c3c;
+    margin: 42px 0 21px 0;
+    outline: none;
+}
+.ba-footer {
+    display: flex;
+    align-items: center;
+    min-height: 165px;
+}
+.ba-footer__rights {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.ba-footer__rights p {
+    font-size: 0.875rem;
+    margin: 0 0 0 35px;
+}
+.ba-footer__link {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+.ba-footer__link:hover {
+    color: blue;
+}
+.ba-article-wrapper img {
+    max-width: 100%;
+    min-height: 100%;
+}
+.ba-article-wrapper {
+    height: 100%;
+}
+.ba-article__link {
+    position: relative;
+    text-decoration: none;
+}
+.ba-article__link:hover  {
+    opacity: 0.5;
+}
+.ba-section__title {
+    font-size: 2.125rem;
+    letter-spacing: 0.34rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+}
